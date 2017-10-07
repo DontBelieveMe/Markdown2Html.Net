@@ -43,6 +43,9 @@ namespace Markdown2Html
                     {
                         headerCount++;
                         details.CurrentIndex++;
+                    } else
+                    {
+                        break;
                     }
                 }
                 if (headerCount <= 6)
