@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Markdown2Html.Test.Winforms", "..\Markdown2Html.Test.Winforms\Markdown2Html.Test.Winforms.csproj", "{B8DD9661-A9C3-452D-83CC-5D4D4AA29A9C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Markdown2Html.Test.Winforms", "Markdown2Html.Test.Winforms\Markdown2Html.Test.Winforms.csproj", "{B8DD9661-A9C3-452D-83CC-5D4D4AA29A9C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Markdown2Html", "Markdown2Html\Markdown2Html.csproj", "{CA7F749B-9EDA-41CA-88A6-01B87373F476}"
 EndProject

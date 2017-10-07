@@ -79,7 +79,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Markdown2Html\Markdown2Html\Markdown2Html.csproj">
+    <ProjectReference Include="..\Markdown2Html\Markdown2Html.csproj">
       <Project>{ca7f749b-9eda-41ca-88a6-01b87373f476}</Project>
       <Name>Markdown2Html</Name>
     </ProjectReference>
