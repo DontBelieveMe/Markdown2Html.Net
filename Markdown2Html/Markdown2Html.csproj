@@ -50,6 +50,7 @@
     <Compile Include="Source\Markdown2Html.cs" />
     <Compile Include="Source\MarkdownUtils.cs" />
     <Compile Include="Source\Parser.cs" />
+    <Compile Include="Source\SetextHeader.cs" />
     <Compile Include="Source\Strikethrough.cs" />
     <Compile Include="Source\ThematicBreak.cs" />
   </ItemGroup>

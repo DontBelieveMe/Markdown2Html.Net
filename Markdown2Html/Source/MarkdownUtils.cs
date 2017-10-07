@@ -10,6 +10,7 @@ namespace Markdown2Html
     {
         public static bool IsNewline(int index, string text)
         {
+            if (index > text.Length - 1) return false;
             string atIndex = text[index].ToString();
             if (atIndex == "\n") return true;
             if (atIndex == "\r") return true;

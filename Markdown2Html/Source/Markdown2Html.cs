@@ -16,12 +16,13 @@ namespace Markdown2Html
         {
             _markdown = markdown;
 
+            _parsers.Add(new Code());
             _parsers.Add(new Emphasis());
             _parsers.Add(new Strikethrough());
             _parsers.Add(new ATXHeader());
             _parsers.Add(new Link());
-            _parsers.Add(new Code());
             _parsers.Add(new Lists());
+            _parsers.Add(new SetextHeader());
             _parsers.Add(new ThematicBreak());
         }
 
@@ -34,7 +35,7 @@ namespace Markdown2Html
         {
             return ParseString(_markdown);
         }
-
+        
         public string ParseString(string str)
         {
             if (string.IsNullOrWhiteSpace(str)) return string.Empty;
