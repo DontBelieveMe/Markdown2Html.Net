@@ -27,8 +27,14 @@ namespace Markdown2Html
                 if(details.CanLookAhed)
                 {
                     string advance = details.OriginalDocument[details.CurrentIndex + 1].ToString();
-                    if (advance == "[") details.CurrentIndex += 1;
-                    parsingImage = true;
+                    if (advance == "[")
+                    {
+                        details.CurrentIndex += 1;
+                        parsingImage = true;
+                    } else
+                    {
+                        return;
+                    }
                 }
             }
 
