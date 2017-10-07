@@ -22,6 +22,7 @@ namespace Markdown2Html
             _parsers.Add(new Link());
             _parsers.Add(new Code());
             _parsers.Add(new Lists());
+            _parsers.Add(new ThematicBreak());
         }
 
         private bool CanLookAhed(string text, int index)

@@ -18,7 +18,7 @@ namespace Markdown2Html
 
         private bool IsEndTag(string token, DocumentDetails details)
         {
-            return token == "\n" || details.CurrentIndex == details.OriginalDocument.Length;
+            return MarkdownUtils.IsNewline(details.CurrentIndex, details.OriginalDocument) || details.CurrentIndex == details.OriginalDocument.Length;
         }
 
         public void OnCharParse(ref string inputCharacter, DocumentDetails details)

@@ -48,8 +48,10 @@
     <Compile Include="Source\Link.cs" />
     <Compile Include="Source\Lists.cs" />
     <Compile Include="Source\Markdown2Html.cs" />
+    <Compile Include="Source\MarkdownUtils.cs" />
     <Compile Include="Source\Parser.cs" />
     <Compile Include="Source\Strikethrough.cs" />
+    <Compile Include="Source\ThematicBreak.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
